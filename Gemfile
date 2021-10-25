@@ -23,6 +23,7 @@ gem 'activerecord-postgis-adapter'
 gem 'cancancan'
 gem 'active_model_serializers', '~> 0.10.2'
 gem 'rack-cors'
+gem 'rails_same_site_cookie', '~> 0.1.8'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
