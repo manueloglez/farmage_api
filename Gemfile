@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '3.0.0'
+ruby '3.0.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.4'
@@ -22,6 +22,7 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'activerecord-postgis-adapter'
 gem 'cancancan'
 gem 'active_model_serializers', '~> 0.10.2'
+gem 'rails_same_site_cookie', '~> 0.1.8'
 gem 'rack-cors'
 gem 'rgeo-geojson'
 gem 'rgeo-activerecord'
